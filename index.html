@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>리뷰작업/구매평 마케팅</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- 헤더 -->
+  <header class="bg-white shadow-sm">
+    <div class="max-w-4xl mx-auto flex items-center justify-between p-4">
+      <div class="text-xl font-bold">리뷰마케팅</div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#what" class="hover:text-blue-600">리뷰작업이란?</a></li>
+          <li><a href="#who" class="hover:text-blue-600">추천 대상</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">문의하기</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 히어로 섹션 -->
+  <section class="relative bg-blue-600 text-white">
+    <div class="max-w-4xl mx-auto py-20 px-6 text-center">
+      <h1 class="text-5xl font-extrabold mb-4">리뷰작업/구매평 마케팅</h1>
+      <p class="text-xl mb-8">초기 비용 절감, 빠른 후기 확보를 위해<br/>전문 리뷰어가 자연스러운 후기 콘텐츠를 작성합니다.</p>
+      <a href="#contact" class="inline-block bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-gray-100">상담 신청하기</a>
+    </div>
+  </section>
+
+  <!-- 리뷰 작업 소개 -->
+  <section id="what" class="max-w-4xl mx-auto py-16 px-6">
+    <h2 class="text-3xl font-semibold mb-6">✍️ 리뷰 작업이란?</h2>
+    <p class="mb-6 leading-relaxed">
+      <strong>리뷰 작업</strong>은 실제 제품 체험 없이, 업체에서 제공한 자료
+      (<em>사진·설명·후기 예시 등</em>)을 바탕으로 리뷰어가 직접 후기 콘텐츠를 작성해
+      블로그·스마트스토어·자사몰 등에 등록하는 마케팅 방식입니다.
+    </p>
+    <ul class="list-disc list-inside space-y-3">
+      <li>실제 사용 후기처럼 자연스럽게 구성</li>
+      <li>빈 박스 발송, 대리택배 이용, 세금계산서 발행 등 유연한 진행 가능</li>
+      <li>초기 마케팅 비용을 최소화하면서도 빠르게 후기 수량 확보</li>
+    </ul>
+  </section>
+
+  <!-- 추천 대상 -->
+  <section id="who" class="bg-gray-100 py-16">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-6">🎯 이런 분들께 추천합니다!</h2>
+      <ul class="list-disc list-inside space-y-3">
+        <li>신규 입점 제품의 초기 후기 확보가 필요한 브랜드</li>
+        <li>실제 제품 제공 없이도 후기 마케팅을 진행하고 싶은 업체</li>
+        <li>스마트스토어, 쿠팡, 자사몰 평점 관리와 키워드 노출을 원하는 마케터</li>
+        <li>세금계산서 정산이 필요한 기업/소상공인</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 문의 폼 -->
+  <section id="contact" class="max-w-4xl mx-auto py-16 px-6">
+    <h2 class="text-3xl font-semibold mb-6">📩 상담 신청하기</h2>
+    <form class="grid grid-cols-1 gap-6">
+      <input type="text" placeholder="이름" class="p-3 border border-gray-300 rounded-md" required />
+      <input type="email" placeholder="이메일" class="p-3 border border-gray-300 rounded-md" required />
+      <textarea rows="4" placeholder="문의 내용" class="p-3 border border-gray-300 rounded-md" required></textarea>
+      <button type="submit" class="bg-blue-600 text-white font-semibold py-3 rounded-md hover:bg-blue-700">보내기</button>
+    </form>
+  </section>
+
+  <!-- 푸터 -->
+  <footer class="bg-white border-t border-gray-200 py-6">
+    <div class="max-w-4xl mx-auto px-6 text-center text-sm text-gray-600">
+      &copy; 2025 리뷰마케팅. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- 고정 상담 버튼 -->
+  <div class="fixed bottom-6 right-6">
+    <a href="#contact" class="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700">
+      상담하기
+    </a>
+  </div>
+</body>
+</html>
